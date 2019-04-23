@@ -30,7 +30,7 @@ Navigation.events().registerAppLaunchedListener(() => {
               options: {
                 bottomTab: {
                   text: 'Remote',
-                  icon: require('./utils/icon.png')
+                  icon: require('./utils/remote.png')
                 }
               }
             }
@@ -41,7 +41,7 @@ Navigation.events().registerAppLaunchedListener(() => {
               options: {
                 bottomTab: {
                   text: 'Channels',
-                  icon: require('./utils/icon.png')
+                  icon: require('./utils/channels.png')
                 }
               }
             }
@@ -52,7 +52,7 @@ Navigation.events().registerAppLaunchedListener(() => {
               options: {
                 bottomTab: {
                   text: 'Settings',
-                  icon: require('./utils/icon.png')
+                  icon: require('./utils/settings.png')
                 }
               }
             }
@@ -60,5 +60,5 @@ Navigation.events().registerAppLaunchedListener(() => {
         ]
       }
     }
-  });
-});
+  })
+})
